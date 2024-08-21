@@ -1,0 +1,148 @@
+section.administrator,
+section.header {
+    background-color: transparent;
+}
+
+section.administrator {
+    margin: 116px auto 60px;
+    max-width: 1120px;
+    min-height: calc(100vh - 647.28px);
+}
+
+.administrator_title {
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+a.nav-link {
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 2%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+a.nav-link:hover {
+    color: #2F208B;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #2F208B !important;
+}
+
+.lot-doamin__filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.lot-doamin__filter input,
+.lot-doamin__filter select {
+    height: 42px;
+    border-radius: 12px;
+    background-color: transparent;
+
+}
+
+.lot-doamin__filter label {
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 2%;
+}
+
+.lot-doamin__filter button {
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 12px;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.lot-doamin__filter button i {
+    color: #2F208B;
+    font-size: 16.5px;
+}
+
+.lot-domain__table th,
+.lot-domain__table td {
+    color: #7a7a7a;
+    font-size: 13px;
+}
+.table_wrapper{
+    max-width: 1120px;
+    overflow: auto;
+}
+.table_wrapper table{
+    width: 100%;
+}
+
+table td,
+table th {
+    vertical-align: middle !important;
+}
+
+.lot-domain__table th {
+    font-weight: 600;
+}
+
+.lot-domain__table th:hover,
+.lot-domain__table td:hover {
+    color: #2F208B;
+}
+
+.action_icons {
+    display: flex;
+    column-gap: 15px;
+}
+
+.lot-domain__table td i {
+    border-radius: 8px;
+    padding: 4px 8px;
+    background: rgb(122, 122, 122);
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color .5s ease;
+}
+
+.lot-domain__table td i:hover {
+    background-color: #2F208B;
+}
+
+.page-link {
+    background-color: transparent !important;
+    color: #7a7a7a !important;
+    transition: all .5s ease;
+}
+
+.page-link:hover,
+.page-link:focus {
+    color: #fff !important;
+    background-color: #2F208B !important;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+    section.administrator{
+        padding: 30px;
+    }
+    .lot-doamin__filter{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}

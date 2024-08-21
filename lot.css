@@ -1,0 +1,540 @@
+section.lot {
+    background-color: #f3f9ff;
+}
+
+.lot_wrapper {
+    background-image: url('./assets/images/mask.svg');
+    background-position: center center;
+    padding: 126px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lot_dates_and_lotNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.lot_start__date {
+    background-color: #E5F2FF;
+    color: rgb(47, 32, 139);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 2%;
+    text-align: left;
+    padding: 14px 70px;
+    border-radius: 14px;
+}
+
+.lot_start__date span {
+    font-weight: 600;
+}
+
+.lot_number {
+    background-color: #E5F2FF;
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 2%;
+    padding: 14px 20px;
+    border-radius: 14px;
+}
+
+.lot_end__date {
+    color: rgb(47, 32, 139);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 2%;
+    padding: 14px 50px;
+    background-color: #E5F2FF;
+    border-radius: 14px;
+}
+
+.lot_end__date span {
+    font-weight: 600;
+}
+
+.lot__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 51px;
+    background-color: #fff;
+    width: fit-content;
+    margin: 56px auto 51px;
+    padding: 10px 20px;
+    border-radius: 42.74px;
+    box-shadow: 0px 4px 4px 0px rgb(224, 240, 255);
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+}
+
+.lot__main:hover {
+    box-shadow: 0px 4px 15px 9px rgb(224, 240, 255);
+}
+
+.lot__main p {
+    color: rgb(47, 32, 139);
+    font-size: 27.47px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 322px;
+}
+
+.lot__main i {
+    color: #023f87;
+    font-size: 23px;
+}
+
+.lot_timer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 30px;
+}
+
+.day_numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.lot_timer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lot_timer__item p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 8%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.day_number {
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 224, 225);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgb(191, 38, 29);
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0%;
+    width: 64px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.two_dots {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(191, 38, 29);
+    border-radius: 50%;
+}
+
+.place_bet {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 135%;
+    border: none;
+    border-radius: 16px;
+    background: rgb(36, 36, 36);
+    padding: 14px 24px;
+    display: block;
+    margin: 40px auto;
+    transition: box-shadow .5s ease;
+}
+
+.place_bet:hover {
+    box-shadow: 0px 0px 16px 7px rgb(136, 136, 136);
+}
+
+section.completed_lot {
+    border-radius: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 40px 0px;
+
+}
+
+section.completed_lot>hr {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: block;
+}
+
+.completed_lot__title {
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 1120px;
+
+}
+
+.completed_lot__infos {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1120px;
+}
+
+.completed_lot__card {
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px 52px;
+    box-shadow: 0px 0px 15px 1px rgb(212, 212, 212);
+    transition: box-shadow .5s ease;
+    cursor: pointer;
+}
+
+
+.completed_lot__card>hr {
+    margin: 20px 0;
+    display: block;
+}
+
+.completed_lot__card p {
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.completed_lot__card h4 {
+    color: rgb(47, 32, 139);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+}
+
+.completed_lot__card h4 span {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+section.lot_alert__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 46px;
+    justify-content: center;
+    align-items: center;
+    padding: 46px 0px 140px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.lot_alert__info p.lot_alert__first {
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* width: 750px; */
+    padding: 14px 50px;
+    border: 1px solid rgb(224, 224, 225);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgb(212, 212, 212);
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+}
+
+.lot_alert__info p.lot_alert__second {
+    color: #BF261D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* width: 750px; */
+    padding: 14px 50px;
+    border: 1px solid rgb(224, 224, 225);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgb(212, 212, 212);
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+}
+
+.lot_alert__info p.lot_alert__first:hover,
+.lot_alert__info p.lot_alert__second:hover,
+.completed_lot__card:hover {
+    box-shadow: 0px 0px 15px 1px rgba(212, 212, 212, 0.459);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1440px) {
+    .lot_wrapper {
+        background-size: contain;
+    }
+}
+
+@media (max-width:1200px) {
+    section.completed_lot {
+        padding: 40px 20px;
+    }
+
+    .completed_lot__infos {
+        grid-template-columns: repeat(3, 300px);
+    }
+
+    .completed_lot__card {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    section.completed_lot {
+        padding: 40px 20px;
+    }
+
+    .lot_dates_and_lotNumber {
+        column-gap: 30px;
+    }
+
+    .completed_lot__infos {
+        grid-template-columns: repeat(2, 300px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .lot_start__date,
+    .lot_end__date {
+        padding: 14px 30px;
+    }
+
+    .completed_lot__card {
+        padding: 20px 30px;
+    }
+
+    .completed_lot__title {
+        width: fit-content;
+    }
+
+    section.completed_lot>hr {
+        max-width: 620px;
+    }
+
+    section.lot_alert__info {
+        padding: 46px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .lot_timer {
+        column-gap: 10px;
+    }
+
+    .day_number {
+        font-size: 42px;
+        width: 57px;
+    }
+
+    section.completed_lot {
+        padding: 40px 20px;
+    }
+
+    .lot_dates_and_lotNumber {
+        column-gap: 10px;
+    }
+
+    .completed_lot__infos {
+        grid-template-columns: repeat(1, 320px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .lot_start__date,
+    .lot_end__date {
+        padding: 14px;
+    }
+
+    .completed_lot__card {
+        padding: 20px 30px;
+    }
+
+    .completed_lot__title {
+        width: fit-content;
+    }
+
+    section.completed_lot>hr {
+        max-width: 320px;
+    }
+
+    section.lot_alert__info {
+        padding: 46px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .lot_timer {
+        column-gap: 10px;
+    }
+
+    .day_number {
+        font-size: 30px;
+        width: 40px;
+        height: 60px;
+    }
+
+    .two_dots {
+        height: 60px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .lot_timer__item p {
+        font-size: 15px;
+    }
+
+    section.completed_lot {
+        padding: 40px 20px;
+    }
+
+    .lot_dates_and_lotNumber {
+        column-gap: 10px;
+    }
+
+    .completed_lot__infos {
+        grid-template-columns: repeat(1, 320px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .lot_start__date,
+    .lot_end__date {
+        padding: 14px;
+    }
+
+    .completed_lot__card {
+        padding: 20px 30px;
+    }
+
+    .completed_lot__title {
+        width: fit-content;
+    }
+
+    section.completed_lot>hr {
+        max-width: 320px;
+    }
+
+    section.lot_alert__info {
+        padding: 46px 0;
+    }
+
+    .completed_lot__card h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .lot_timer {
+        column-gap: 10px;
+    }
+
+    .day_number {
+        font-size: 20px;
+        width: 30px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .two_dots {
+        height: 50px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .lot_timer__item p {
+        font-size: 13px;
+    }
+
+    .place_bet {
+        font-size: 16px;
+    }
+
+    section.completed_lot {
+        padding: 40px 20px;
+    }
+
+    .lot_dates_and_lotNumber {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .completed_lot__infos {
+        grid-template-columns: repeat(1, 320px);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .lot_start__date,
+    .lot_end__date {
+        padding: 14px;
+    }
+
+    .completed_lot__card {
+        padding: 20px 30px;
+    }
+
+    .completed_lot__title {
+        width: fit-content;
+    }
+
+    section.completed_lot>hr {
+        max-width: 320px;
+    }
+
+    section.lot_alert__info {
+        padding: 46px 0;
+    }
+
+    .completed_lot__card h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
